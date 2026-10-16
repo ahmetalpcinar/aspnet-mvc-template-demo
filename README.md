@@ -1,23 +1,28 @@
-## ❗ Bilgi
-Bu proje, ASP.NET Framework MVC ile hazırlanmış, basit bir şablon giydirme denemesidir. Araştırmalar sonucu bulduğum bu basit şablonu MVC projeme giydirdim ve kodumu JavaScript kodlarıyla güçlendirdim.
+# ASP.NET MVC Template Demo
 
-## 🖥️ İçindekiler
-- Ana Sayfa
-- Hakkında Sayfası
-- Ürünler Sayfası
-- Mağaza Sayfası
+Hazır bir HTML/CSS kahve mağazası şablonunun ASP.NET Framework MVC projesine uyarlanması denemesi. Şablon sayfaları Razor görünümlerine bölünmüş, ortak yapı `_Layout.cshtml` içinde toplanmıştır. Menüde aktif sayfayı vurgulayan küçük bir JavaScript dosyası eklenmiştir.
 
-## 📁 Amaç ve Notlar
-- Bu proje de amacım bir MVC projesine şablon giydirip giydiremediğimi test etmektir.
-- Proje de kullanılan şablon bir kahve mağazasına ait basit bir şablon olarak kabul edilmektedir.
-- Proje üzerinde aktif olarak çalışacak hiçbir kod yoktur.
-- Projeye sonradan dahil edilen site.js kodu, Nav Bar üzerinde ki düğmelerin Aktif olarak görünmesini sağlamaktadır.
+## Teknolojiler
 
-## 🖼️ JavaScript'in İşlevi
-Bu sayfa ana sayfa olduğu için "Home" yazısı sarı renkte aktif bir şekilde parlarken:
+- C#, ASP.NET MVC (.NET Framework 4.7.2)
+- Razor
+- Bootstrap, jQuery
+- JavaScript
 
-<img src="https://github.com/ahmetalpcinar/ahmetalpcinar/blob/main/PNG/Images/imageBTT1.png">
+## Sayfalar
 
-Eğer bu şekilde "About" sayfasına geçersek de bu sefer "About" düğmesi sarı renkte parlamakta:
+- Ana sayfa, Hakkında, Ürünler, Mağaza
 
-<img src="https://github.com/ahmetalpcinar/ahmetalpcinar/blob/main/PNG/Images/imageBTT2.png">
+## Kurulum
+
+Gereksinimler: Windows, Visual Studio 2019 veya üzeri.
+
+1. Repoyu klonlayın ve `TrialNT.sln` dosyasını Visual Studio ile açın.
+2. NuGet paketlerini geri yükleyin (Visual Studio otomatik yapar, `packages.config` kullanılır).
+3. Projeyi çalıştırın (F5).
+
+## Ekran Görüntüleri
+
+Aktif sayfa menüde sarı renkle vurgulanır:
+
+<img src="https://raw.githubusercontent.com/ahmetalpcinar/ahmetalpcinar/main/PNG/Images/imageBTT1.png" alt="Ana sayfa" width="420"> <img src="https://raw.githubusercontent.com/ahmetalpcinar/ahmetalpcinar/main/PNG/Images/imageBTT2.png" alt="Hakkında sayfası" width="420">
